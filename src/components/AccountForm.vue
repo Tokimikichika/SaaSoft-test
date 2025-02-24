@@ -61,7 +61,6 @@
         </template>
       </el-input>
 
-      <!-- Кнопка удаления (всегда на своем месте) -->
       <el-button type="danger" @click="store.deleteAccount(account.id)" class="delete-btn" circle>
         <el-icon><delete /></el-icon>
       </el-button>
