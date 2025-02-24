@@ -10,6 +10,7 @@ interface Account {
   loginError: boolean;
   passwordError: boolean;
   labelsError: boolean;
+  showPassword: boolean,
 }
 
 export const useAccountsStore = defineStore("accounts", {
@@ -29,6 +30,7 @@ export const useAccountsStore = defineStore("accounts", {
         loginError: false,
         passwordError: false,
         labelsError: false,
+        showPassword: false,
       });
       this.saveToLocalStorage();
     },
