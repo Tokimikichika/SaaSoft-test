@@ -2,6 +2,7 @@
   "name": "my-account-manager",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://tokimikichika.github.io/SaaSoft-test/",
   "type": "module",
   "scripts": {
     "dev": "vite",

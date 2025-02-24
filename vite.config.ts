@@ -13,7 +13,7 @@ export default defineConfig({
     vueDevTools(),
     
   ],
-  base: '/ТВОЙ_РЕПОЗИТОРИЙ/',
+  base: '/SaaSoft-test/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
